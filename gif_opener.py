@@ -4,6 +4,7 @@ import time
 import threading
 import os
 from PIL import Image
+import system as sys
 def get_avg_fps(PIL_Image_object):
     """ Returns the average framerate of a PIL Image object """
     PIL_Image_object.seek(0)
